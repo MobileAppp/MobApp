@@ -33,5 +33,13 @@ export class WelcomePage {
   go3(){
     this.navCtrl.push("TrianglePage");
   }
-  
+  go4(){
+    this.navCtrl.push("PolygonPage");
+  }
+  go5(){
+    this.navCtrl.push("CubePage");
+  }
+  go6(){
+    this.navCtrl.push("CuboidPage");
+  }
 }
